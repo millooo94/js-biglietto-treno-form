@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo del prezzo del biglietto del treno</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- CALCOLA IL PREZZO DEL TUO BIGLIETTO -->
+    <div class="container">
+        <h1 class="text-center text-white my_h1">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <form class="form-zone bg-white my-4" action="" method="get">
+            <div class="row">
+                <div class="fl-name col text-center">
+                    <label class="col-12 my_text" for="name">Nome e Cognome</label>
+                    <input class="" type="text" placeholder="Inserisci il tuo nome" id="name" name="name">
+                </div>
+                <div class="distance col text-center">
+                    <label class="col-12 my_text" for="kms">Km da percorrere</label>
+                    <input class="" type="number" placeholder="Inserisci la distanza" id="kms" name="kms">
+                </div>
+                <div class="age col-auto text-center">
+                    <label class="col-12 my_text" for="">Fascia d'età</label>
+                    <select class="" name="age-range" id="age-range">
+                        <option id="minorenne" value="minorenne">Minorenne</option>
+                        <option id="maggiorenne" value="maggiorenne">Maggiorenne</option>
+                        <option id="" value="over65">Over 65</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <input class="col-auto btn my_btn me-4" type="button" id="generate" value="Genera">
+                <input class="col-auto btn my_btn" type="button" value="Annulla" id="discard">
+            </div>
+        </form>
+    </div>
+    <!-- IL TUO BIGLIETTO -->
+    <div class="container mt-5" id="ticket">
+        <h1 class="text-white text-center my_h1">IL TUO BIGLIETTO</h1>
+        <div class="ticket-zone">
+            <h2 class="my_h2 mb-0">DETTAGLIO PASSEGGERI</h2>
+            <table>
+                <colgroup>
+                    <col span="1">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th class="my_h2">NOME PASSEGGERO
+                            <div id="nome-passeggero"></div>
+                        </th>
+                        <th class="my_text">Offerta</th>
+                        <th class="my_text">Carrozza</th>
+                        <th class="my_text">Codice CP</th>
+                        <th class="my_text">Costo biglietto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td class="text-generated my_text" id="offerta"></td>
+                    <td class="text-generated my_text" id="carrozza"></td>
+                    <td class="text-generated my_text" id="codice-cp"></td>
+                    <td class="text-generated my_text" id="costo-biglietto"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>

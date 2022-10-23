@@ -1,0 +1,120 @@
+body {
+    background-color: #b91450 !important;
+    padding: 5rem;
+}
+
+
+
+/* General styles */
+
+.my_h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.my_h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+
+.my_text {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.my_btn {
+    background-color: #cccccc !important;
+    color: #b91450 !important;
+    padding: .3rem !important;
+    font-weight: bold !important;
+    border: 2px solid #808080 !important;
+    font-size: 1.2rem !important;
+}
+
+.my_btn:hover {
+    background-color: #808080 !important;
+    color: white !important;
+}
+
+
+
+/* <!-- CALCOLA IL PREZZO DEL TUO BIGLIETTO --> */
+
+label {
+    margin-bottom: 1rem;
+    color: #b91450;
+}
+
+input {
+    
+    border-radius: 7px;
+    border: 2px solid #b91450;
+}
+
+input:focus {
+    background-color: #b91450;
+    color: white;
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+
+select {
+    border-radius: 5px;
+    border: 2px solid #b91450;
+    background-color: white;
+}
+
+select option {
+    border-radius: 40px;
+    background-color: aqua;
+
+}
+
+select:focus {
+    background-color: #b91450;
+    color: white;
+}
+
+.form-zone {
+    padding: 2rem 8rem 2rem 8rem;
+    border-radius: 20px;
+}
+
+
+
+/* IL TUO BIGLIETTO */
+
+table {
+    padding: 1rem;
+    width: 100%;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+colgroup col {
+    background-color: #808080;
+}
+
+#ticket {
+    display: ;
+     
+}
+
+.ticket-zone {
+    padding: 1rem;
+    background-color: white;
+}
+
+
+th, td {
+    padding: 1rem;
+}
+
+#nome-passeggero {
+    font-size: 1.1rem;
+}
