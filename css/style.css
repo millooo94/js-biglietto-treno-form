@@ -112,3 +112,9 @@ th, td {
 #nome-passeggero {
     font-size: 1.1rem;
 }
+
+.age, .fl-name, .distance {
+    display: flex;
+    flex-direction: column;
+}
+
