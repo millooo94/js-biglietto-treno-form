@@ -17,8 +17,6 @@ body {
     font-weight: 600;
 }
 
-
-
 .my_text {
     font-size: 1rem;
     font-weight: 600;
@@ -62,7 +60,6 @@ input:focus::placeholder {
     color: white;
 }
 
-
 select {
     border-radius: 5px;
     border: 2px solid #b91450;
@@ -99,7 +96,7 @@ colgroup col {
 }
 
 #ticket {
-    display: ;
+    display: none;
      
 }
 
@@ -107,7 +104,6 @@ colgroup col {
     padding: 1rem;
     background-color: white;
 }
-
 
 th, td {
     padding: 1rem;
