@@ -69,11 +69,9 @@ select {
     background-color: white;
 }
 
-select option {
+/* select option {
     border-radius: 40px;
-    background-color: aqua;
-
-}
+} */
 
 select:focus {
     background-color: #b91450;
